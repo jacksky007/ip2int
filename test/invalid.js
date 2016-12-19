@@ -2,7 +2,7 @@ import test from 'tape'
 
 import ip2int from '../src/index'
 
-test('invalid inputs without spaces', (t) => {
+test('invalid inputs with spaces', (t) => {
   const msg = /space between digits is not allowed/
   t.plan(2)
 
